@@ -1,7 +1,9 @@
+import java.util.Date;
+
 public class Categoria {
     private String pais;
     private String lingua;
-    private date data_lac;
+    private Date data_lac;
 
     public categoria(){
 
