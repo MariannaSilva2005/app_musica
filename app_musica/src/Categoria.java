@@ -5,7 +5,8 @@ public class Categoria {
     private String lingua;
     private Date data_lac;
 
-    public categoria(){
+    public Categoria(){
+    }
 
     public String getPais() {
         return this.pais;
@@ -23,15 +24,14 @@ public class Categoria {
         this.lingua = lingua;
     }
 
-    public date getData_lac() {
+    public Date getData_lac() {
         return this.data_lac;
     }
 
-    public void setData_lac(date data_lac) {
+    public void setData_lac(Date data_lac) {
         this.data_lac = data_lac;
     }
 
-    }
 
 
 }
