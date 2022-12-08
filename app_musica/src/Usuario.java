@@ -1,9 +1,6 @@
-public class Usuario {
-    
-}
-Public class Usuario{
+public class Usuario{
     String nome;
-    Int idade;
+    int idade;
 
     public String getNome() {
         return this.nome;
@@ -13,11 +10,11 @@ Public class Usuario{
         this.nome = nome;
     }
 
-    public int getTempo() {
-        return this.tempo;
+    public int getIdade() {
+        return this.idade;
     }
 
-    public void setTempo(int tempo) {
-        this.tempo = tempo;
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 }

@@ -1,4 +1,4 @@
-Public class Genero{
+public class Genero{
     String nome;
 
     public String getNome() {
